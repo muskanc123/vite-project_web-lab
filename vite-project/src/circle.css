@@ -1,0 +1,29 @@
+.circle
+{
+
+    width:250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50%; /* Make it a circle */
+
+}
+
+.square
+{
+    padding: 25px;
+    width:250px;
+    height:250px;
+    background-color: black;
+    margin-top: 30px;
+
+}
+
+.rectangle
+{
+    padding: 25px;
+    width:300px;
+    height:25px;
+    background-color: black;
+    margin-top: 30px;
+
+}

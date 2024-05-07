@@ -1,0 +1,19 @@
+#container
+{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.user img
+{
+  width: 100px;
+}
+.user
+{
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(203, 221, 184);
+  text-align: center;
+}

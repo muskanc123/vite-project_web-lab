@@ -1,0 +1,45 @@
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid #ccc;
+  }
+  .column {
+    flex: 1;
+    padding: 20px;
+    border-color: blue;
+    background-color: rgb(13, 198, 118);
+  }
+
+  .column:first-child {
+    border-right: 1px solid #ccc; /* Add a border to the right side of the first column */
+    padding: 30px;
+  }
+
+  .users
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+  
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.post-box img
+{
+  width: 100px;
+}
+.post-box
+{
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(203, 221, 184);
+  text-align: center;
+}
