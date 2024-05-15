@@ -9,7 +9,6 @@ function FetchData() {
     // const [loading, setLoading] = useState(true);
 
     const fetchUsers = () => {
-        alert("Hello fetch Users")
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then((data) => {
@@ -20,7 +19,6 @@ function FetchData() {
     };
 
     const fetchPosts = () => {
-        alert("Hello posts ")
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(response => response.json())
             .then((data) => {
@@ -50,7 +48,11 @@ function FetchData() {
                                 address={item.address}
                                 index={index}
                             />
+                            // <div>
+                            //     {item.name}
+                            //     {item.email}
 
+                            // </div>
                         ))}
                     </div>
 

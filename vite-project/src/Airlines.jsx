@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-export default function Friends() {
+export default function Airlines() {
   const [airLine, setAirLine] = useState();
   const [airLines, setAirLines] = useState([]);
   return (
